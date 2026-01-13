@@ -1,4 +1,7 @@
-firstName = input('Enter your first name: ')
-secondName = input('Enter your second name: ')
+Number = 0
 
-print("Hello, " + firstName+" "+secondName+" welcome to the python program")
+for i in range(1,51):
+    Number += i
+
+print('The sum of numbers from 1 to 10 is:',Number)
+
